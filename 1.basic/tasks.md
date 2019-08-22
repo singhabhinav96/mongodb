@@ -21,7 +21,10 @@ db.createCollection('TT')
 4. add 3 players in each of above collections which should have fields like `name`, `age`, `email`, state and auction_price.
 
 ```
-
+TT
+db.TT.insert({name:"",age:"",email:"",state:"",auction_price:""})
+db.cricket.insert({name:"",age:"",email:"",state:"",auction_price:""})
+db.football.insert({name:"",age:"",email:"",state:"",auction_price:""})
 
 ```
 
