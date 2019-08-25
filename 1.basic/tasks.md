@@ -30,17 +30,49 @@ db.football.insert({name:"",age:"",email:"",state:"",auction_price:""})
 
 5. list all collections in sports database.
 
+```
+show collections
+```
+
 6. rename `TT` collection to `tennis`.
+
+```
+db.TT.renameCollection('tennis')
+```
 
 7. create a capped collection called `khokho` which should have max 3 documents.
    Try inserting more than 3 and output the result here ?
 
+```
+
+```
+
 8. check whether a collection is capped or not?
+
+```
+
+```
 
 9. remove all documents from `football` collection.
 
+```
+
+```
+
 10. delete cricket collection completely.
+
+```
+
+```
 
 11. rename database sports to games
 
+```
+
+```
+
 12. delete sports database.
+
+```
+
+```
