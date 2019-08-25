@@ -50,29 +50,29 @@ db.TT.renameCollection('tennis')
 8. check whether a collection is capped or not?
 
 ```
-
+db.khokho.isCapped()
 ```
 
 9. remove all documents from `football` collection.
 
 ```
-
+db.football.remove({name:"",age:"",email:"",state:"",auction_price:""})
 ```
 
 10. delete cricket collection completely.
 
 ```
-
+db.cricket.drop()
 ```
 
 11. rename database sports to games
 
 ```
-
+db.sports.renameCollection(games)
 ```
 
 12. delete sports database.
 
 ```
-
+db.dropDatabase()
 ```
